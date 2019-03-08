@@ -1,3 +1,41 @@
 body {
   font-family: monospace;
+  text-align: center;
+}
+
+span
+{
+  background: pink;
+  color: darkorchid;
+}
+
+.around1
+{
+  border: 3px solid steelblue;
+  display: inline-block;
+}
+
+.around2
+{
+  display: inline-block;
+  border: 5px solid lightskyblue;
+}
+
+strong
+{
+  color: red;
+}
+
+.button
+{
+  background-color: lemonchiffon;
+  border: none ;
+  color: salmon;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
