@@ -1,12 +1,15 @@
 body {
   font-family: monospace;
   text-align: center;
+  background:-webkit-gradient(linear, left top, left bottom, from(#0066FF), to(#AAFFEE));
+  height: 1000px;
 }
 
 span
 {
   background: pink;
   color: darkorchid;
+  font-family: fantasy;
 }
 
 .around1
@@ -29,7 +32,7 @@ strong
 .button
 {
   background-color: lemonchiffon;
-  border: none ;
+  border: 1px #ff6600 outset ;
   color: salmon;
   padding: 15px 32px;
   text-align: center;
@@ -39,3 +42,11 @@ strong
   margin: 4px 2px;
   cursor: pointer;
 }
+
+.button:hover{                    /*滑鼠經過時，按鈕的變化*/
+  color: salmon;
+  border-style: inset;               /*邊框變成內凹*/
+  background-color: lemonchiffon;
+  padding: 15px 32px;   /*改變按鈕內緣與文字的距離，做出往下按的視覺效果*/
+}
+
